@@ -1,0 +1,122 @@
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  box-sizing: border-box;
+}
+
+p {
+  padding: 15px;
+  font-size: 18px;
+  font-stretch: expanded;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'IM Fell DW Pica SC', serif;
+  color: #212121;
+  text-align: left;
+  padding-right: 20px;
+
+}
+
+h2 {
+  text-align: left;
+  font-size: 2em;
+  font-weight: bolder;
+  font-stretch: extra-expanded;
+  color: #212121;
+  padding: 60px 20px 10px 10px;
+
+}
+
+h3 {
+  text-align: left;
+  color: #212121;
+  padding: 5px 0px 10px 20px;
+
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 15px;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding: 0px 15px;
+
+}
+
+header {
+  padding: 5px;
+  background-color: #00bcd4;
+  border-bottom: 1px solid #757575;
+  height: 100px;
+}
+
+footer {
+  padding-top: 350px;
+  position: fixed;
+}
+
+li {
+  text-decoration: none;
+  padding: 20px 0 20px 20px;
+  font-size: 20px;
+}
+
+li img {
+  height: 30px;
+  width: 30px;
+  padding-left: 10px;
+}
+
+.font {
+  font-family: 'IM Fell DW Pica SC', serif;
+  font-size: 32px;
+}
+
+.flexNav {
+  position: fixed;
+}
+
+.short-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+#body {
+  display: flex;
+}
+
+#left-side {
+    width: 15%;
+    min-height: 100vh;
+    position: fixed;
+}
+
+#right-side {
+  width: 85%;
+  background-color: #f6f6f6;
+  margin-left: auto;
+}
+
+a {
+  text-decoration: underline;
+  color: #757575;
+}
+
+a:visited {
+  color: #757575;
+}
+
+a:hover {
+  color: #00bcd4;
+  cursor: pointer;
+
+}
