@@ -25,7 +25,7 @@ h2 {
   font-weight: bolder;
   font-stretch: extra-expanded;
   color: #212121;
-  padding: 60px 20px 10px 10px;
+  padding: 10px 20px 10px 10px;
 
 }
 
@@ -44,7 +44,7 @@ h4 {
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
   text-align: left;
   padding: 0px 15px;
@@ -53,7 +53,7 @@ h5 {
 
 header {
   padding: 5px;
-  background-color: #00bcd4;
+  background-color: #8bc34a;
   border-bottom: 1px solid #757575;
   height: 100px;
 }
@@ -78,6 +78,7 @@ li img {
 .font {
   font-family: 'IM Fell DW Pica SC', serif;
   font-size: 32px;
+  color: #8BC34A;
 }
 
 .flexNav {
@@ -98,11 +99,12 @@ li img {
     width: 15%;
     min-height: 100vh;
     position: fixed;
+    background-color: #DCEDC8;
 }
 
 #right-side {
   width: 85%;
-  background-color: #f6f6f6;
+  background-color: #757575;
   margin-left: auto;
 }
 
