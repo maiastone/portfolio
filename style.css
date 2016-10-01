@@ -1,3 +1,6 @@
+@media screen and (min-width: 767px) {
+
+
 body {
   font-family: 'Open Sans Condensed', sans-serif;
   box-sizing: border-box;
@@ -129,4 +132,140 @@ a:hover {
   color: #8f0bd4;
   cursor: pointer;
 
+}
+
+}
+
+@media screen and (max-width: 766px) {
+  body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    box-sizing: border-box;
+  }
+
+  p {
+    padding: 15px;
+    font-size: 24px;
+    font-stretch: expanded;
+    line-height: 1.2em;
+  }
+
+  h1 {
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    color: #212121;
+    text-align: left;
+    padding-right: 20px;
+
+  }
+
+  h2 {
+    text-align: left;
+    font-size: 1.5em;
+    font-weight: bolder;
+    font-stretch: extra-expanded;
+    color: #212121;
+    padding: 10px 20px 10px 10px;
+
+  }
+
+  h3 {
+    text-align: left;
+    color: #212121;
+    padding: 5px 0px 10px 20px;
+    font-size: 18px;
+
+  }
+
+  h4 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 15px;
+  }
+
+  h5 {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+    padding: 0px 15px;
+
+  }
+
+  h6 {
+    font-size: 18px;
+    text-align: left;
+    padding: 0px 15px;
+
+  }
+  header {
+    padding: 5px;
+    background-color: #50D40B;
+    border-bottom: 1px solid #757575;
+    height: 50px;
+  }
+
+  footer {
+    list-style-type: none;
+  }
+
+  .footer {
+    text-align: center;
+  }
+
+  li {
+    text-decoration: none;
+    padding: 20px 0 20px 20px;
+    font-size: 20px;
+    display: inline-block;
+  }
+
+  li img {
+    height: 30px;
+    width: 30px;
+  }
+
+  .font {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: #8BC34A;
+  }
+
+  .flexNav {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .short-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+  }
+
+
+  #left-side {
+    width: 100%;
+    background-color: #dfdfdf;
+  }
+
+  #right-side {
+    width: 100%;
+    background-color: #fafafa;
+
+  }
+
+  a {
+    text-decoration: underline;
+    color: #8f0bd4;
+    font-size: 24px;
+  }
+
+  a:visited {
+    color: #757575;
+  }
+
+  a:hover {
+    color: #8f0bd4;
+    cursor: pointer;
+
+  }
 }

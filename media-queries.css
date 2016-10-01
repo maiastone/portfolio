@@ -1,0 +1,40 @@
+/*@media screen(mid width: 768px;) {
+
+
+
+}
+
+
+/* iPad 3 or 4, Landscape */
+/*@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: landscape)
+  and (-webkit-min-device-pixel-ratio: 2) {
+/**/TO DO looks good as is for this setting
+}*/*/
+
+
+/* iPhone 7, Portrait */
+/*@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 767px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+
+    #left-side {
+      display: none;
+    }
+
+    #right-side {
+      background-color: green;
+
+    }
+
+    .flexNav {
+      position: static;
+      display: flex;
+      justify-content: space-between;
+    }
+
+};*/
