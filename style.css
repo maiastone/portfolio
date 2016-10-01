@@ -12,7 +12,7 @@ p {
 
 h1 {
   font-size: 50px;
-  font-family: 'IM Fell DW Pica SC', serif;
+  font-family: 'Poppins', sans-serif;
   color: #212121;
   text-align: left;
   padding-right: 20px;
@@ -45,16 +45,22 @@ h4 {
 }
 
 h5 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: bold;
   text-align: left;
   padding: 0px 15px;
 
 }
 
+h6 {
+  font-size: 22px;
+  text-align: left;
+  padding: 0px 15px;
+
+}
 header {
   padding: 5px;
-  background-color: #8bc34a;
+  background-color: #50D40B;
   border-bottom: 1px solid #757575;
   height: 100px;
 }
@@ -77,7 +83,7 @@ li img {
 }
 
 .font {
-  font-family: 'IM Fell DW Pica SC', serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 42px;
   color: #8BC34A;
 }
@@ -100,18 +106,18 @@ li img {
     width: 15%;
     min-height: 100vh;
     position: fixed;
-    background-color: #DCEDC8;
+    background-color: #dfdfdf;
 }
 
 #right-side {
   width: 85%;
-  background-color: #757575;
+  background-color: #fafafa;
   margin-left: auto;
 }
 
 a {
   text-decoration: underline;
-  color: #757575;
+  color: #8f0bd4;
   font-size: 24px;
 }
 
@@ -120,7 +126,7 @@ a:visited {
 }
 
 a:hover {
-  color: #00bcd4;
+  color: #8f0bd4;
   cursor: pointer;
 
 }
